@@ -47,9 +47,8 @@ However, VS Code extensions that should discover and run these tests **only see 
 
 1. Clone this repository
 2. Open in VS Code
-3. Install any test discovery extension
-4. Try to discover/run tests through the extension
-5. **Issue:** Only `PlainNUnitPasses` is discovered, `AddingTwoNumbers` (SpecFlow) is missing
+3. Try to discover/run tests through the extension
+4. **Issue:** Only `PlainNUnitPasses` is discovered, `AddingTwoNumbers` (SpecFlow) is missing
 
 ## Expected Fix
 
@@ -62,3 +61,4 @@ The extension should discover and display both:
 - The SpecFlow test runs perfectly via `dotnet test` command line
 - The issue is specifically with **extension-based test discovery**, not with SpecFlow itself
 - This affects the developer experience when using VS Code for SpecFlow BDD development
+
