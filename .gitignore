@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+
+# Test results
+[Tt]est[Rr]esult*/
+TestResult.xml
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# VS Code
+.vscode/
+.history/

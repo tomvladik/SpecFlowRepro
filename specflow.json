@@ -1,0 +1,6 @@
+{
+  "$schema": "https://schemas.specflow.org/specflow-config.json",
+  "framework": {
+    "unitTestProvider": "nunit"
+  }
+}
